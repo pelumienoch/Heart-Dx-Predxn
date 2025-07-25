@@ -16,7 +16,7 @@ page = st.sidebar.selectbox("Navigate", ["🔍 Predictor", "📊 Dashboard"])
 
 # 💻 Predictor Page
 if page == "🔍 Predictor":
-    st.title("🫀 Heart Disease Predictor")
+    st.title("Heart Disease Predictor")
 
     with st.form("prediction_form"):
         col1, col2, col3 = st.columns(3)
