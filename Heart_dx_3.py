@@ -5,8 +5,9 @@ import streamlit as st
 import plotly.express as px
 
 # Load model and dataset
-model = pk.load(open(r'C:\Users\User\Documents\ML\HEART DX PREDICTION\heart_disease_prdx.pkl', 'rb'))
-data = pd.read_csv(r'C:\Users\User\Documents\ML\HEART DX PREDICTION\heart_disease.csv')
+model = pk.load(open('heart_disease_prdx.pkl', 'rb'))
+data = pd.read_csv('heart_disease.csv')
+
 
 st.set_page_config(page_title="Heart Disease App", layout="wide")
 
