@@ -53,7 +53,7 @@ if page == "🔍 Predictor":
         if prediction[0] == 0:
             st.success("✅ You have a healthy heart")
         else:
-            st.error("⚠️ You may have Heart Disease")
+            st.error("⚠️ You may have a Heart Disease")
 
 
 # 📊 Dashboard Page
