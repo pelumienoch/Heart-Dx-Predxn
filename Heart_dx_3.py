@@ -48,9 +48,9 @@ if page == "🔍 Predictor":
         prediction = model.predict(input_data)
 
         if prediction[0] == 0:
-            st.success("✅ Patient is Healthy")
+            st.success("✅ You have a healthy heart")
         else:
-            st.error("⚠️ Patient may have Heart Disease")
+            st.error("⚠️ You may have Heart Disease")
 
 
 # 📊 Dashboard Page
