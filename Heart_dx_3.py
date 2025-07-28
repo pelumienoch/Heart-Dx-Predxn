@@ -17,7 +17,9 @@ page = st.sidebar.selectbox("Navigate", ["🔍 Predictor", "📊 Dashboard"])
 # 💻 Predictor Page
 if page == "🔍 Predictor":
     st.title("ABC Cardiology Clinic")
-    st.subtitle("Welcome to the ABC cardiology clinic online heart disease predictor ML algorithm. The options tagged 0s represents No and 1s represents Yes")
+    st.markdown("### Welcome to the ABC Cardiology Clinic Online Heart Disease Predictor 🫀")
+    st.markdown("The options tagged **0** represent **No**, and those tagged **1** represent **Yes**.")
+
 
     with st.form("prediction_form"):
         col1, col2, col3 = st.columns(3)
