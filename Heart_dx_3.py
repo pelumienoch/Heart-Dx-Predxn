@@ -17,7 +17,7 @@ page = st.sidebar.selectbox("Navigate", ["🔍 Predictor", "📊 Dashboard"])
 # 💻 Predictor Page
 if page == "🔍 Predictor":
     st.title("ABC Cardiology Clinic")
-    st.markdown("### Welcome to the ABC Cardiology Clinic Online Heart Disease Predictor 🫀")
+    st.markdown("### Welcome to the ABC Cardiology Clinic Online Heart Disease Predictor ♥")
     st.markdown("The options tagged **0** represent **No**, and those tagged **1** represent **Yes**.")
 
 
